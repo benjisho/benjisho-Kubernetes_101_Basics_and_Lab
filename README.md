@@ -27,24 +27,24 @@ The repository contains the following files:
    ```
    
 2. **Start the minikube cluster**:
-```
-minikube start
-```
+  ```
+  minikube start
+  ```
 3. **Deploy the application**:
-Apply the Deployment and Service configurations with the following commands:
-```
-kubectl apply -f my-node-app-deployment.yaml
-kubectl apply -f my-node-app-service.yaml
-```
+  Apply the Deployment and Service configurations with the following commands:
+  ```
+  kubectl apply -f my-node-app-deployment.yaml
+  kubectl apply -f my-node-app-service.yaml
+  ```
 4. **Check the Deployment and Service**:
-```
-kubectl get deployments
-kubectl get services
-```
+  ```
+  kubectl get deployments
+  kubectl get services
+  ```
 5. ***Access the application***:
-```
-minikube service my-node-app-service
-```
+  ```
+  minikube service my-node-app-service
+  ```
 This command will automatically open your application in a web browser.
 
 That's it! You should now have a simple Node.js server running on your local Kubernetes cluster.
