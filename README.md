@@ -32,7 +32,8 @@ The repository contains the following files:
          ./install_minikube_ubuntu.sh
          ```
 - Kubectl: The Kubernetes command-line tool. You can install it by following the instructions [here](https://kubernetes.io/docs/tasks/tools/).
-   - Additionally: If you are using **Ubuntu**, you can use the provided script to install Kubectl.
+   - For Ubuntu, follow the instructions [here](https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/).
+      - Additionally: If you are using **Ubuntu**, you can use the provided script to install Kubectl.
       - Navigate to the `scripts` directory using the command below and run:
          ```
          cd scripts
