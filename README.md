@@ -45,7 +45,7 @@ The repository contains the following files:
     ```
     minikube service my-node-app-service
     ```
-This command will automatically open your application in a web browser.
+   This command will automatically open your application in a web browser.
 
 That's it! You should now have a simple Node.js server running on your local Kubernetes cluster.
 
