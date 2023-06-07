@@ -23,6 +23,13 @@ The repository contains the following files:
          ```
    - For Debian, follow the instructions [here](https://docs.docker.com/engine/install/debian/).
 - Minikube: Follow the instructions [here](https://minikube.sigs.k8s.io/docs/start/) to install.
+    - For Ubuntu, you can also use the provided script to install Minikube.
+      - Navigate to the `scripts` directory and run:
+         ```shell
+         cd scripts
+         chmod +x install_minikube_ubuntu.sh
+         ./install_minikube_ubuntu.sh
+         ```
 - Kubectl: The Kubernetes command-line tool. You can install it by following the instructions [here](https://kubernetes.io/docs/tasks/tools/).
 
 ## Steps
