@@ -12,9 +12,9 @@ The repository contains the following files:
 
 ## Prerequisites
 
-- Docker installed on your machine.
-- Minikube installed on your machine.
-- Kubectl (the Kubernetes command-line tool) installed on your machine.
+- Docker: You can download it [here](https://www.docker.com/products/docker-desktop).
+- Minikube: Follow the instructions [here](https://minikube.sigs.k8s.io/docs/start/) to install.
+- Kubectl: The Kubernetes command-line tool. You can install it by following the instructions [here](https://kubernetes.io/docs/tasks/tools/).
 
 ## Steps
 
