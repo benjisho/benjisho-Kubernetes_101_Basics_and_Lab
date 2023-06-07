@@ -13,6 +13,7 @@ The repository contains the following files:
 ## Prerequisites
 
 ### Docker Engine
+Follow the instructions [here](https://docs.docker.com/engine/install/) to install.
    - For Ubuntu, follow the instructions [here](https://docs.docker.com/engine/install/ubuntu/).
       - Additionally: If you are using **Ubuntu**, you can use the provided script to install Docker Engine.
       - Navigate to the `scripts` directory using the command below and run:
