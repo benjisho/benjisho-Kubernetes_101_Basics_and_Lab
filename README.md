@@ -12,7 +12,7 @@ The repository contains the following files:
 
 ## Prerequisites
 
-- Docker Engine:
+- **Docker Engine**:
    - For Ubuntu, follow the instructions [here](https://docs.docker.com/engine/install/ubuntu/).
       - Additionally: If you are using **Ubuntu**, you can use the provided script to install Docker Engine.
       - Navigate to the `scripts` directory using the command below and run:
@@ -22,7 +22,7 @@ The repository contains the following files:
          ./install_docker_engine_ubuntu.sh
          ```
    - For Debian, follow the instructions [here](https://docs.docker.com/engine/install/debian/).
-- Minikube: Follow the instructions [here](https://minikube.sigs.k8s.io/docs/start/) to install.
+- **Minikube**: Follow the instructions [here](https://minikube.sigs.k8s.io/docs/start/) to install.
     - For Ubuntu, you can also use the provided script to install Minikube.
       - Additionally: If you are using **Ubuntu**, you can use the provided script to install Minikube.
       - Navigate to the `scripts` directory and run:
@@ -31,7 +31,7 @@ The repository contains the following files:
          chmod +x install_minikube_ubuntu.sh
          ./install_minikube_ubuntu.sh
          ```
-- Kubectl: The Kubernetes command-line tool. You can install it by following the instructions [here](https://kubernetes.io/docs/tasks/tools/).
+- **Kubectl**: The Kubernetes command-line tool. You can install it by following the instructions [here](https://kubernetes.io/docs/tasks/tools/).
    - For Ubuntu, follow the instructions [here](https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/).
       - Additionally: If you are using **Ubuntu**, you can use the provided script to install Kubectl.
       - Navigate to the `scripts` directory using the command below and run:
