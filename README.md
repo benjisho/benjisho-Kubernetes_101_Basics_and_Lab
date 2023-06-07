@@ -12,7 +12,16 @@ The repository contains the following files:
 
 ## Prerequisites
 
-- Docker Engine: For Ubuntu, follow the instructions [here](https://docs.docker.com/engine/install/ubuntu/). For Debian, follow the instructions [here](https://docs.docker.com/engine/install/debian/).
+- Docker Engine:
+   - For Ubuntu, follow the instructions [here](https://docs.docker.com/engine/install/ubuntu/).
+      - Additionally: If you are using **Ubuntu**, you can use the provided script to install Docker Engine.
+      - Navigate to the `scripts` directory using the command below and run:
+         ```
+         cd scripts
+         chmod +x install_docker_engine_ubuntu.sh
+         ./install_docker_engine_ubuntu.sh
+         ```
+   - For Debian, follow the instructions [here](https://docs.docker.com/engine/install/debian/).
 - Minikube: Follow the instructions [here](https://minikube.sigs.k8s.io/docs/start/) to install.
 - Kubectl: The Kubernetes command-line tool. You can install it by following the instructions [here](https://kubernetes.io/docs/tasks/tools/).
 
