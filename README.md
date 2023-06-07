@@ -43,6 +43,7 @@ The Kubernetes command-line tool. You can install it by following the instructio
          chmod +x install_kubectl_ubuntu.sh
          ./install_kubectl_ubuntu.sh
          ```
+---
 ## Setup Steps
 
 1. **Build the Docker image**:
