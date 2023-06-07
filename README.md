@@ -12,7 +12,7 @@ The repository contains the following files:
 
 ## Prerequisites
 
-- Docker: You can download it [here](https://www.docker.com/products/docker-desktop).
+- Docker Engine: For Ubuntu, follow the instructions [here](https://docs.docker.com/engine/install/ubuntu/). For Debian, follow the instructions [here](https://docs.docker.com/engine/install/debian/).
 - Minikube: Follow the instructions [here](https://minikube.sigs.k8s.io/docs/start/) to install.
 - Kubectl: The Kubernetes command-line tool. You can install it by following the instructions [here](https://kubernetes.io/docs/tasks/tools/).
 
