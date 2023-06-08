@@ -132,7 +132,7 @@ Kubernetes provides several resources that you can use to further manage your ap
     ```
 You can use the `kubectl get` command followed by the resource type to get information about that resource. For example, `kubectl get pods` will give you information about the running pods. You can also use `kubectl get all` to get information about all the resources in the Kubernetes cluster.
 
-Replace [POD_NAME], [SERVICE_NAME], and [NAMESPACE_NAME] with the name of your Pod, Service, or Namespace respectively when running the describe commands.
+Replace `[POD_NAME]`, `[SERVICE_NAME]`, and `[NAMESPACE_NAME]` with the name of your Pod, Service, or Namespace respectively when running the describe commands.
 <a name="cleaning-up"></a>
 ## 🧹 Cleaning up
 To delete the Deployment and Service, run:
@@ -144,5 +144,3 @@ To stop the minikube cluster, run:
 ```
 minikube stop
 ```
-
-This README provides a brief explanation of your repository, a list of files in it, a list of prerequisites for running the application, and step-by-step instructions for building the Docker image, deploying the application, accessing it, and cleaning up afterwards.
