@@ -1,7 +1,7 @@
-# Kubernetes_101_Basics_Setup
+# 🚀 Kubernetes_101_Basics
 This repository contains the necessary configuration files to build a simple Node.js server, containerize it with Docker, and deploy it to a Kubernetes cluster.
 
-## Structure
+## 📂 Structure
 
 The repository contains the following files:
 
@@ -10,9 +10,9 @@ The repository contains the following files:
 - `my-node-app-deployment.yaml`: The Kubernetes Deployment configuration file to deploy the application on a Kubernetes cluster.
 - `my-node-app-service.yaml`: The Kubernetes Service configuration file to expose the application on a Kubernetes cluster.
 
-## Prerequisites
+## 📌 Prerequisites
 
-### Docker Engine
+### 🐳 Docker Engine
 Follow the instructions [here](https://docs.docker.com/engine/install/) to install.
    - For Ubuntu, follow the instructions [here](https://docs.docker.com/engine/install/ubuntu/).
       - Additionally: If you are using **Ubuntu**, you can use the provided script to install Docker Engine.
@@ -23,7 +23,7 @@ Follow the instructions [here](https://docs.docker.com/engine/install/) to insta
          ./install_docker_engine_ubuntu.sh
          ```
    - For Debian, follow the instructions [here](https://docs.docker.com/engine/install/debian/).
-### Minikube
+### 🚜 Minikube
 Follow the instructions [here](https://minikube.sigs.k8s.io/docs/start/) to install.
    - For Ubuntu, you can also use the provided script to install Minikube.
       - Additionally: If you are using **Ubuntu**, you can use the provided script to install Minikube.
@@ -33,7 +33,7 @@ Follow the instructions [here](https://minikube.sigs.k8s.io/docs/start/) to inst
          chmod +x install_minikube_ubuntu.sh
          ./install_minikube_ubuntu.sh
          ```
-### Kubectl
+### ⚙️ Kubectl
 The Kubernetes command-line tool. You can install it by following the instructions [here](https://kubernetes.io/docs/tasks/tools/).
    - For Ubuntu, follow the instructions [here](https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/).
       - Additionally: If you are using **Ubuntu**, you can use the provided script to install Kubectl.
@@ -44,7 +44,7 @@ The Kubernetes command-line tool. You can install it by following the instructio
          ./install_kubectl_ubuntu.sh
          ```
 ---
-## Setup Steps
+## 🚀 Setup Steps
 
 1. **Build the Docker image**:
 
@@ -75,9 +75,9 @@ The Kubernetes command-line tool. You can install it by following the instructio
     ```
    This command will automatically open your application in a web browser.
 
-That's it! You should now have a simple Node.js server running on your local Kubernetes cluster.
+That's it! You should now have a simple Node.js server running on your local Kubernetes cluster. 👏
 
-## Exploring Kubernetes Further
+## 🕵️‍♀️ Exploring Kubernetes Further
 
 Kubernetes provides several resources that you can use to further manage your application. Here are a few examples:
 
@@ -116,7 +116,7 @@ Kubernetes provides several resources that you can use to further manage your ap
 You can use the `kubectl get` command followed by the resource type to get information about that resource. For example, `kubectl get pods` will give you information about the running pods. You can also use `kubectl get all` to get information about all the resources in the Kubernetes cluster.
 
 Replace [POD_NAME], [SERVICE_NAME], and [NAMESPACE_NAME] with the name of your Pod, Service, or Namespace respectively when running the describe commands.
-## Cleaning up
+## 🧹 Cleaning up
 To delete the Deployment and Service, run:
 ```
 kubectl delete deployment my-node-app-deployment
