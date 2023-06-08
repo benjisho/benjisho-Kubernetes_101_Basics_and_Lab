@@ -19,7 +19,7 @@ sudo mv minikube /usr/local/bin/
 
 # Start Minikube
 echo "Starting Minikube..."
-minikube start
+sudo minikube start --force
 
 # Confirm Installation
 echo "Minikube installation is complete. Run 'minikube status' to confirm installation."
