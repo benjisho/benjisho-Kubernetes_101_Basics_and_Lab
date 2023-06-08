@@ -78,18 +78,44 @@ The Kubernetes command-line tool. You can install it by following the instructio
 That's it! You should now have a simple Node.js server running on your local Kubernetes cluster.
 
 ## Exploring Kubernetes Further
+
 Kubernetes provides several resources that you can use to further manage your application. Here are a few examples:
 
 - **Pods**: These are the smallest deployable units of computing that can be created and managed in Kubernetes.
+    ```shell
+    # Get information about Pods
+    kubectl get pods
 
+    # Get detailed information about a specific Pod
+    kubectl describe pod [POD_NAME]
+    ```
+    
 - **Services**: A way to expose an application running on a set of Pods as a network service.
+    ```shell
+    # Get information about Services
+    kubectl get services
 
+    # Get detailed information about a specific Service
+    kubectl describe service [SERVICE_NAME]
+    ```
+    
 - **Volumes**: A directory containing data, accessible to the containers in a pod.
-
+    ```shell
+    # Get detailed information about a specific Volume by describing the Pod
+    kubectl describe pod [POD_NAME]
+    ```
+    
 - **Namespaces**: A way to divide cluster resources between multiple users.
+    ```shell
+    # Get information about Namespaces
+    kubectl get namespaces
 
-You can use the kubectl get command followed by the resource type to get information about that resource. For example, kubectl get pods will give you information about the running pods.
+    # Get detailed information about a specific Namespace
+    kubectl describe namespace [NAMESPACE_NAME]
+    ```
+You can use the `kubectl get` command followed by the resource type to get information about that resource. For example, `kubectl get pods` will give you information about the running pods. You can also use `kubectl get all` to get information about all the resources in the Kubernetes cluster.
 
+Replace [POD_NAME], [SERVICE_NAME], and [NAMESPACE_NAME] with the name of your Pod, Service, or Namespace respectively when running the describe commands.
 ## Cleaning up
 To delete the Deployment and Service, run:
 ```
