@@ -1,4 +1,5 @@
-# 🚀 Kubernetes_101_Basics
+# 🚀 Kubernetes_101_Basics_and_Lab
+
 This repository contains the necessary configuration files to build a simple Node.js server, containerize it with Docker, and deploy it to a Kubernetes cluster.
 
 ## 📋 Table of Contents
