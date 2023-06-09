@@ -13,7 +13,7 @@ spec:
         app: my-node-app
     spec:
       containers:
-      - name: my-node-app
-        image: my-node-app:latest
+      - name: my-node-app-container
+        image: my-node-app-container:latest
         ports:
         - containerPort: 3000
