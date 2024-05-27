@@ -72,22 +72,22 @@ The Kubernetes command-line tool. You can install it by following the instructio
    ```
    
 2. **Start the minikube cluster**:
-    ```
+    ```shell
     minikube start
     ```
 3. **Deploy the application**:
     Apply the Deployment and Service configurations with the following commands:
-    ```
+    ```shell
     kubectl apply -f my-node-app-deployment.yaml
     kubectl apply -f my-node-app-service.yaml
     ```
 4. **Check the Deployment and Service**:
-    ```
+    ```shell
     kubectl get deployments
     kubectl get services
     ```
 5. **Access the application**:
-    ```
+    ```shell
     minikube service my-node-app-service
     ```
    This command will automatically open your application in a web browser.
@@ -137,11 +137,11 @@ Replace `[POD_NAME]`, `[SERVICE_NAME]`, and `[NAMESPACE_NAME]` with the name of 
 <a name="cleaning-up"></a>
 ## 🧹 Cleaning up
 To delete the Deployment and Service, run:
-```
+```shell
 kubectl delete deployment my-node-app-deployment
 kubectl delete service my-node-app-service
 ```
 To stop the minikube cluster, run:
-```
+```shell
 minikube stop
 ```
